@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-image: url(./imagens/planodefundo.jpg);
+    background-image: url(planodefundo.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: black;
