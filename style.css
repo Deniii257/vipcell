@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-image: url(planodefundo.jpg);
+    background-image: url(./imagens/planodefundo.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: black;
@@ -186,9 +186,12 @@ nav a:hover{
     }
 
     header{
-        backdrop-filter: blur(2px);
-        background: rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(10px);
+        background: rgba(0, 0, 0, 0.5);
         border-color: rgb(37, 37, 37);
+        position: sticky;
+        top: 0;
+        z-index: 1;
     }
 
     nav{
